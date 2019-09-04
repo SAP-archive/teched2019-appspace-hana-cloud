@@ -1,0 +1,27 @@
+{
+  "COMM_FOODS": {
+    "target": {
+      "object": "COMM_FOODS",
+      "grantor": "SN1"
+    }
+  },
+  "ME_AT_TECHED": {
+    "target": {
+      "object": "ME_AT_TECHED",
+      "grantor": "SN1"
+    }
+  },
+  "FRIENDS": {
+    "target": {
+      "object": "FRIENDS",
+      "grantor": "SN1"
+    }
+  },
+  "CODE_NAMES": {
+    "target": {
+      "object": "CODE_NAMES",
+      "grantor": "SN1"
+    }
+  }
+  
+}

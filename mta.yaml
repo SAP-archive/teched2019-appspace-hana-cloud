@@ -1,0 +1,32 @@
+ID: TECHED_APPSPACE_<<XXX>>
+_schema-version: '2.1'
+version: 0.0.1
+modules:
+  - name: db
+    type: hdb
+    path: db
+    requires:
+      - name: hdi_db
+        properties:
+          TARGET_CONTAINER: '~{hdi-container-name}'
+      - name: cross-container-service
+        group: SERVICE_REPLACEMENTS
+        properties:
+          key: SN1
+          service: '~{the-service-name}'
+resources:
+  - name: hdi_db
+    properties:
+      hdi-container-name: '${service-name}'
+    type: com.sap.xs.hdi-container
+    parameters:
+      service-name: hdi-<<XXX>>
+      config:
+        schema: S<<XXX>>
+        makeUniqueName: false
+  - name: cross-container-service
+    parameters:
+      service-name: CC_GRANT
+    properties:
+      the-service-name: '${service-name}'
+    type: org.cloudfoundry.existing-service

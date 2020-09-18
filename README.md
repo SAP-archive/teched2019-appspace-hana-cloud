@@ -1,5 +1,7 @@
 # Explore Advanced Analytics with SAP HANA at SAP TechEd 2019
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2019-appspace-hana-cloud)](https://api.reuse.software/info/github.com/SAP-samples/teched2019-appspace-hana-cloud)
+
 # Description
 This repository is the starting point for the SAP HANA mission at the Developer Garage at SAP TechEd. It cannot be installed outside the environment prepared for SAP TechEd. 
 

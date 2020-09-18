@@ -14,4 +14,4 @@ Installation instructions start in the following tutorial: [Connect to SAP Web I
 This repository cannot currently be installed outside the context of the mission at the Developer Garage at SAP Teched 2019.
 
 # License
-Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE file](LICENSE).
+Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE file](LICENSES/Apache-2.0.txt).
